@@ -5,18 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prelim Examination</title>
 </head>
+<style>
+    #bckgrnd {
+        background-color:lightblue;
+        height: 950px;
+    }
+    #header {
+        background-color: aqua;
+    }
+    #Login {
+        color: blue;
+        background-color: beige;
+    }
+    #Register {
+        color: green;
+        background-color: beige;
+    }
+    
+</style>
 <body>
     <div style="text-align: center;">
-    <h1>LOGIN PAGE</h1>
+    <div id="bckgrnd">
+    <h1 id="header"><i>LOGIN PAGE</i></h1>
 
-    <input type="text" placeholder="Username" value="">
+    <input style="background-color:antiquewhite;" type="text" placeholder="Username" value="">
 
     <div style="margin-top: 1rem;">
-    <input type="password" placeholder="Password" value="">
+    <input style="background-color:antiquewhite;" type="password" placeholder="Password" value="">
     </div>
     <div>
-        <button style="margin-top: 1rem;">Login</button>
-        <button style="margin-top: 1rem;">Register</button>
+        <button id="Login" style="margin-top: 1rem;">Login</button>
+        <button id="Register" style="margin-top: 1rem;">Register</button>
     </div>
     </div>
     

@@ -34,10 +34,16 @@
     <input style="background-color:antiquewhite;" type="password" placeholder="Password" value="">
     </div>
     <div>
-        <button id="Login" style="margin-top: 1rem;">Login</button>
-        <button id="Register" style="margin-top: 1rem;">Register</button>
+        <button id="Login" style="margin-top: 1rem;" onclick="alert('Logging in...')">Login</button>
+        <a href="./register.html"><button id="Register" style="margin-top: 1rem;">Register</button></a>
     </div>
     </div>
-    
+    <script>
+         alert("Welcome To PESBUK");
+        let btnLogin = document.querySelector("#buttonLogin");
+        btnLogin.onclick = function(){
+            alert('Logging in...')
+        };
+    </script>
 </body>
 </html>

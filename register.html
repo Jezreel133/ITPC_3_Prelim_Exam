@@ -70,12 +70,18 @@
         <input type="text" placeholder="Last Name">
     </div>
     <div id="ButtonStyle">
-        <button id="CancelButton">
+        <a href="./index.html"><button id="CancelButton">
             Cancel
-        </button>
-        <button id="RegisterButton">
-           Register
-        </button>
+        </button></a>
+        <a href="./index.html"><button onclick="alert('Registration Successful')" id="RegisterButton">
+            Register
+         </button></a>
     </div>
+    <script>
+        let btnRegister = document.querySelector("#buttonRegister");
+        btnRegister.onclick = function(){
+            alert('Registration Successful')
+        };
+    </script>
 </body>
 </html>
